@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         table.register(FirstTableViewCell.self, forCellReuseIdentifier: "FirstTableViewCell")
         table.register(SecondTableViewCell.self, forCellReuseIdentifier: "SecondTableViewCell")
         table.register(ThirdTableViewCell.self, forCellReuseIdentifier: "ThirdTableViewCell")
+        table.register(FourthTableViewCell.self, forCellReuseIdentifier: "FourthTableViewCell")
         return table
     }()
     
@@ -63,9 +64,8 @@ class ViewController: UIViewController {
         
         view.addSubview(tableView)
         tableView.snp.makeConstraints { make in
-            make.left.right.equalToSuperview()
+            make.left.right.bottom.equalToSuperview()
             make.top.equalTo(textField.snp.bottom)
-            make.bottom.equalToSuperview()
         }
     }
 }
@@ -81,6 +81,8 @@ extension ViewController: UITableViewDataSource {
             cell = tableView.dequeueReusableCell(withIdentifier: "SecondTableViewCell", for: indexPath) as! SecondTableViewCell
         case 2:
             cell = tableView.dequeueReusableCell(withIdentifier: "ThirdTableViewCell", for: indexPath) as! ThirdTableViewCell
+        case 3:
+            cell = tableView.dequeueReusableCell(withIdentifier: "FourthTableViewCell", for: indexPath) as! FourthTableViewCell
         default:
             break
         }
@@ -89,6 +91,6 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        3
+        4
     }
 }

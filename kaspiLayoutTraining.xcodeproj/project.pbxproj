@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6F696EBF2B276E3400E0DAAB /* ThirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F696EBE2B276E3400E0DAAB /* ThirdTableViewCell.swift */; };
+		6FA2E53F2B2890A000CFE792 /* FourthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA2E53E2B2890A000CFE792 /* FourthTableViewCell.swift */; };
+		6FA2E5412B28923500CFE792 /* FourthCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA2E5402B28923500CFE792 /* FourthCollectionCell.swift */; };
 		6FD28CDC2B235A0D00816281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28CDB2B235A0D00816281 /* AppDelegate.swift */; };
 		6FD28CDE2B235A0D00816281 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28CDD2B235A0D00816281 /* SceneDelegate.swift */; };
 		6FD28CE02B235A0D00816281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28CDF2B235A0D00816281 /* ViewController.swift */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		6F696EBE2B276E3400E0DAAB /* ThirdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTableViewCell.swift; sourceTree = "<group>"; };
+		6FA2E53E2B2890A000CFE792 /* FourthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTableViewCell.swift; sourceTree = "<group>"; };
+		6FA2E5402B28923500CFE792 /* FourthCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthCollectionCell.swift; sourceTree = "<group>"; };
 		6FD28CD82B235A0D00816281 /* kaspiLayoutTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kaspiLayoutTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD28CDB2B235A0D00816281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FD28CDD2B235A0D00816281 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FA2E5422B28925200CFE792 /* FirstModule */ = {
+			isa = PBXGroup;
+			children = (
+				6FD28CF62B23772000816281 /* FirstTableViewCell.swift */,
+				6FD28CFA2B237B4B00816281 /* FirstCollectionCell.swift */,
+			);
+			path = FirstModule;
+			sourceTree = "<group>";
+		};
+		6FA2E5432B28926100CFE792 /* SecondModule */ = {
+			isa = PBXGroup;
+			children = (
+				6FD28CFC2B23808400816281 /* SecondTableViewCell.swift */,
+			);
+			path = SecondModule;
+			sourceTree = "<group>";
+		};
+		6FA2E5442B28927D00CFE792 /* ThirdModule */ = {
+			isa = PBXGroup;
+			children = (
+				6F696EBE2B276E3400E0DAAB /* ThirdTableViewCell.swift */,
+			);
+			path = ThirdModule;
+			sourceTree = "<group>";
+		};
+		6FA2E5452B28928900CFE792 /* FourthModule */ = {
+			isa = PBXGroup;
+			children = (
+				6FA2E53E2B2890A000CFE792 /* FourthTableViewCell.swift */,
+				6FA2E5402B28923500CFE792 /* FourthCollectionCell.swift */,
+			);
+			path = FourthModule;
+			sourceTree = "<group>";
+		};
 		6FD28CCF2B235A0D00816281 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +106,10 @@
 		6FD28CDA2B235A0D00816281 /* kaspiLayoutTraining */ = {
 			isa = PBXGroup;
 			children = (
+				6FA2E5452B28928900CFE792 /* FourthModule */,
+				6FA2E5442B28927D00CFE792 /* ThirdModule */,
+				6FA2E5432B28926100CFE792 /* SecondModule */,
+				6FA2E5422B28925200CFE792 /* FirstModule */,
 				6FD28CDB2B235A0D00816281 /* AppDelegate.swift */,
 				6FD28CDD2B235A0D00816281 /* SceneDelegate.swift */,
 				6FD28CDF2B235A0D00816281 /* ViewController.swift */,
@@ -75,10 +117,6 @@
 				6FD28CE62B235A0E00816281 /* LaunchScreen.storyboard */,
 				6FD28CE92B235A0E00816281 /* Info.plist */,
 				6FD28CEF2B235D8600816281 /* UIColor+extension.swift */,
-				6FD28CF62B23772000816281 /* FirstTableViewCell.swift */,
-				6FD28CFA2B237B4B00816281 /* FirstCollectionCell.swift */,
-				6FD28CFC2B23808400816281 /* SecondTableViewCell.swift */,
-				6F696EBE2B276E3400E0DAAB /* ThirdTableViewCell.swift */,
 			);
 			path = kaspiLayoutTraining;
 			sourceTree = "<group>";
@@ -162,6 +200,8 @@
 			files = (
 				6FD28CE02B235A0D00816281 /* ViewController.swift in Sources */,
 				6F696EBF2B276E3400E0DAAB /* ThirdTableViewCell.swift in Sources */,
+				6FA2E53F2B2890A000CFE792 /* FourthTableViewCell.swift in Sources */,
+				6FA2E5412B28923500CFE792 /* FourthCollectionCell.swift in Sources */,
 				6FD28CDC2B235A0D00816281 /* AppDelegate.swift in Sources */,
 				6FD28CF72B23772000816281 /* FirstTableViewCell.swift in Sources */,
 				6FD28CDE2B235A0D00816281 /* SceneDelegate.swift in Sources */,

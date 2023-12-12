@@ -11,12 +11,14 @@ import SnapKit
 class FourthTableViewCell: UITableViewCell {
     private lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: 200, height: 200)
+        layout.itemSize = CGSize(width: 200, height: 150)
         layout.minimumLineSpacing = 0
         layout.scrollDirection = .horizontal
         let cView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         cView.dataSource = self
+        cView.showsHorizontalScrollIndicator = false
         cView.backgroundColor = .clear
+        cView.register(FourthCollectionCell.self, forCellWithReuseIdentifier: "FourthCollectionCell")
         return cView
     }()
 
@@ -34,13 +36,15 @@ class FourthTableViewCell: UITableViewCell {
         contentView.addSubview(collectionView)
         collectionView.snp.makeConstraints {
             $0.left.right.top.bottom.equalToSuperview()
+            $0.height.equalTo(130)
         }
     }
 }
 
 extension FourthTableViewCell: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        <#code#>
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FourthCollectionCell", for: indexPath) as! FourthCollectionCell
+        return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

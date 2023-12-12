@@ -3,4 +3,54 @@
    uuid = "D44641C9-2264-4BA6-BC63-CBF943902EF7"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26200F97-0645-4A51-A841-21C7121ACC4F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kaspiLayoutTraining/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "26200F97-0645-4A51-A841-21C7121ACC4F - 92ed0d1c5e982138"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "kaspiLayoutTraining.ViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "kaspiLayoutTraining"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nurik/Desktop/kaspiLayoutTraining/kaspiLayoutTraining/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "756">
+               </Location>
+               <Location
+                  uuid = "26200F97-0645-4A51-A841-21C7121ACC4F - 92ed0d1c5e98211b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "kaspiLayoutTraining.ViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "kaspiLayoutTraining"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nurik/Desktop/kaspiLayoutTraining/kaspiLayoutTraining/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "992">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
